@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <section>
+            <ul class ="menu">
+                <li class ="menu-item"> <span>Home</span></li>
+                <li class="menu-item">
+                    <span>Product</span>
+                    <ul class="tab">
+                        <li class="tab-item">Tivi</li>
+                        <li class="tab-item">Máy tính xách tay</li>
+                    </ul>
+                </li>
+                <li class="menu-item">About us</li>
+                <li class="menu-item">Contact</li>
+            </ul>
+        </section>
+    </header>
+
+    <form action="" id="form-1">
+        <p class="form-title"> Contact Us</p>
+        <div class="input field-fullname grid-cell">
+            <div class="field-wrapper">
+                <label for="fullname">Full Name *</label>
+                <input type="text" name="fullname" placeholder="Enter your name">
+            </div>
+        </div>
+        <div class="input field-email grid-cell">
+            <div class="field-wrapper">
+                <label for="email">Email *</label>
+                <input type="text" name="email" placeholder="Enter your email">
+            </div>
+        </div>
+        <div class="input field-phone grid-cell">
+            <div class="field-wrapper">
+                <label for="email">Phone *</label>
+                <input type="text" name="phone" placeholder="Enter your phone">
+            </div>
+        </div>
+        <div class="input field-services grid-cell">
+            <div class="field-wrapper">
+                <label for="email">Needed Services *</label>
+                <div class="wrapper">
+                    <input type="number" name="service" class="txtService" placeholder="Please choose" min="1" max="10">
+                    <div class="arrow">
+                        <i class="fa-solid fa-chevron-up arrow-icon"></i>
+                        <i class="fa-solid fa-chevron-up arrow-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="field-message grid-cell">
+            <div class="field-wrapper">
+                <label for="message">MESSAGE</label>
+                <textarea name="message" rows="6" placeholder="Your message here..."></textarea>
+            </div>
+        </div>
+        <input type="submit" value="Submit &#xf061;" class="btn">
+
+    </form>
+
+
+</body>
+</html>

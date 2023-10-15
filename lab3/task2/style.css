@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: tahoma,Arial, sans-serif;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/916/657/97/anime-your-name-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.card{
+    width: 293px;
+    height: 450px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 20px;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+.input{
+    justify-content: center;
+}
+.input-email , .input-password{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px 20px;
+    margin-left: 25px;
+    border: 1px solid #eee;
+    padding: 0 20px;
+    box-shadow: 10px 10px 5px #9e9e9e;
+
+}
+.input-password{
+    margin-top: 20px;
+}
+input:focus{
+    border-color: #9e9e9e;
+    outline: none;
+}
+.button{
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+.btn{
+    width: 128px;
+    height: 37px;
+    border-radius: 50px 50px;
+    background-color: #bd59d7;
+    border: none;
+    box-shadow: 5px 5px 2px #9e9e9e;
+}
+span{
+    color: white;
+    font-weight: bold;
+}
+.icon , .icon1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(234, 234, 234);
+    margin-left: 75px;
+    margin-top: 20px;
+
+}
+.icon1{
+    margin-left: 20px;
+}
+.fa-brands{
+    padding-top: 15px;
+    margin-left: 20px;
+}
+.container{
+    padding-top: 50px;
+    display: flex;
+    margin-left: 10px;
+
+}

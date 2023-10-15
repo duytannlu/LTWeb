@@ -1,0 +1,155 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: tahoma,Arial, sans-serif;
+}
+#card{
+    width: 563px;
+    height: 773px;
+    background-color: #ffff;
+    border: 10px solid #e3e3e3;
+    margin: auto;
+}
+.cardd{
+    margin: auto;
+    height: 731px;
+    width: 460px;
+    padding: 20px;
+}
+span{
+    font-size: 18px;
+    color: #7ed321;
+    font-weight: bold;
+
+}
+.name,.email,.pass{
+    height: 47px;
+    width: 453px;
+    margin-top: 20px;
+    border: 1px solid #e5e5e5;
+    background-color: #f9f9f9;
+    display: flex;
+}
+.icon{
+    width: 50px;
+    height: 47px;
+    border-right: 1px solid #e5e5e5;
+}
+.text-input{
+    height: 86%;
+    width: 90%;
+    border: none;
+    background-color: #f9f9f9;
+    margin-left: 10px;
+}
+input:focus{
+    outline: none;
+}
+.container{
+    display: flex;
+}
+.birth{
+    width: 220px;
+    margin-top: 20px;
+}
+.day {
+    height: 96px;
+    margin-top: 20px;
+    display: flex;
+}
+.date ,.sex{
+    width: 230px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: -18px;
+}
+.gender{
+    width: 220px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.date-date,.date-month,.date-year{
+    width: 50px;
+    height: 40px;
+    background-color:#f9f9f9;
+    margin-left: 20px;
+    border: 1px solid #e5e5e5;
+    color: #b9b9b9;
+}
+.date-year{
+    width: 60px;
+}
+h1{
+    text-align: center;
+    font-size: 12px;
+}
+.sex{
+    margin-left: 20px;
+}
+.sex-male,.sex-female{
+    width: 113px;
+    height: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    color: #b9b9b9;
+}
+.credit{
+    height: 47px;
+    width: 453px;
+    margin-top: 20px;
+    border: 1px solid #e5e5e5;
+    background-color: #f9f9f9;
+    display: flex;
+}
+.credit-card,.paypal{
+    width: 224px;
+    color: #e5e5e5;
+    font-size: 18px;
+}
+.credit-card{
+    background-color: #7ed321;
+}
+.card-cvc{
+    display: flex;
+}
+.cvc{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.cvc-month ,.cvc-yearr{
+    width: 113px;
+    height: 46px;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    color: #b9b9b9;
+}
+.cvc-year{
+    width: 113px;
+    height: 46px;
+    border-right: none;
+}
+
+.pix-text{
+    width: 113px;
+    height: 46px;
+    border: 1px solid #e5e5e5;
+    background-color: #f9f9f9;
+}
+.pix-text:focus{
+    outline: none;
+}
+.footer{
+    height: 451px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+form{
+    margin-left: -50px;
+}
+.cmt{
+    color: #b9b9b9;
+}
